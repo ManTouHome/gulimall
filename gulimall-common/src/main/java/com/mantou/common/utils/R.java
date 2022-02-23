@@ -9,7 +9,6 @@
 package com.mantou.common.utils;
 
 import org.apache.http.HttpStatus;
-
 import java.util.HashMap;
 import java.util.Map;
 

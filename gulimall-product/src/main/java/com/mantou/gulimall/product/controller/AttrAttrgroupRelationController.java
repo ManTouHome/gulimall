@@ -23,7 +23,7 @@ import com.mantou.common.utils.R;
  *
  * @author mantou
  * @email 15027896686@163.com
- * @date 2022-02-15 16:42:35
+ * @date 2022-02-23 09:08:43
  */
 @RestController
 @RequestMapping("product/attrattrgrouprelation")
@@ -35,7 +35,7 @@ public class AttrAttrgroupRelationController {
      * 列表
      */
     @RequestMapping("/list")
-   // @RequiresPermissions("product:attrattrgrouprelation:list")
+    //@RequiresPermissions("product:attrattrgrouprelation:list")
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = attrAttrgroupRelationService.queryPage(params);
 
@@ -69,7 +69,7 @@ public class AttrAttrgroupRelationController {
      * 修改
      */
     @RequestMapping("/update")
-    //@RequiresPermissions("product:attrattrgrouprelation:update")
+   // @RequiresPermissions("product:attrattrgrouprelation:update")
     public R update(@RequestBody AttrAttrgroupRelationEntity attrAttrgroupRelation){
 		attrAttrgroupRelationService.updateById(attrAttrgroupRelation);
 
