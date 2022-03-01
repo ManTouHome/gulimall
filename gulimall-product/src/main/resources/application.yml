@@ -1,6 +1,6 @@
 #服务端口
 server:
-  port: 1000
+  port: 10000
 #配置数据源
 spring:
   datasource:
